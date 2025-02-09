@@ -1,0 +1,25 @@
+{
+    "camera": {
+        "width": 640,
+        "height": 480,
+        "fps": 15,
+        "exposure": -1,
+        "source": 0
+    },
+    "model": {
+        "prototxt": "MobileNetSSD_deploy.prototxt",
+        "caffemodel": "MobileNetSSD_deploy.caffemodel",
+        "confidence_threshold": 0.8,
+        "try_gpu": false
+    },
+    "processing": {
+        "skip_frames": 2,
+        "brightness_adjustment": 1.2,
+        "contrast_adjustment": 1.1
+    },
+    "storage": {
+        "log_path": "logs/bus_counter.log",
+        "data_path": "data/",
+        "backup_interval": 3600
+    }
+}
